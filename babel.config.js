@@ -7,5 +7,6 @@ module.exports = {
         include: ['TAMAGUI_TARGET'],
       },
     ],
+    'react-native-reanimated/plugin',
   ],
 };
