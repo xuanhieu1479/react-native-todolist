@@ -1,7 +1,7 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
-import { ROUTES } from '../constants';
+import { ROUTES } from 'constants/index';
 import TabNavigator from './TabNavigator';
 
 const Drawer = createDrawerNavigator();

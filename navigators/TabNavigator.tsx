@@ -1,8 +1,8 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import { ROUTES } from '../constants';
-import { ToDo, Settings } from '../screens';
+import { ROUTES } from 'constants/index';
+import { ToDo, Settings } from '../modules';
 
 const Tab = createBottomTabNavigator();
 
